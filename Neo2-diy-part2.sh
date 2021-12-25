@@ -29,7 +29,7 @@ sed -i 's/192.168.1.1/192.168.1.8/g' package/base-files/files/bin/config_generat
 #sed -i "s|DISTRIB_REVISION='.*'|DISTRIB_REVISION='R$(date +%Y.%m.%d)'|g" package/lean/default-settings/files/zzz-default-settings
 
 #Apply the patches
-cp $GITHUB_WORKSPACE/patches/*.patch /target/linux/sunxi/patches-5.4/
+cp $GITHUB_WORKSPACE/patches/*.patch $GITHUB_WORKSPACE/openwrt/target/linux/sunxi/patches-5.4/
 
 
 
