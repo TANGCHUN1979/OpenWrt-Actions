@@ -16,7 +16,6 @@
 # Add a feed source
 sed -i '$a src-git ssrp https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
-sed -i '$a src-git ssrp https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a src-git packages https://github.com/coolsnowwolf/packages' feeds.conf.default
 sed -i '$a src-git luci https://github.com/coolsnowwolf/luci' feeds.conf.default
 sed -i '$a src-git routing https://git.openwrt.org/feed/routing.git' feeds.conf.default
