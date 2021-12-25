@@ -1,0 +1,10 @@
+--- a/arch/arm64/boot/dts/allwinner/sun50i-h5-nanopi-neo2.dts
++++ b/arch/arm64/boot/dts/allwinner/sun50i-h5-nanopi-neo2.dts
+@@ -157,3 +157,7 @@
+ 	usb0_vbus-supply = <&reg_usb0_vbus>;
+ 	status = "okay";
+ };
++
++&i2c0 {
++	status = "okay";
++};
